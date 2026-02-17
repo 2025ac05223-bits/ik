@@ -1,12 +1,20 @@
-.venv
-saved_models/
-data/
-plots/
-# Ignore Python cache files
 __pycache__/
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-# Ignore virtual environment directories
+*.pyc
+*.pyo
 .venv/
-# Ignore logs
-logs/     
+venv/
+env/
+node_modules/
+.ipynb_checkpoints/
+.claude/
+.DS_Store
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pem
+*accessKeys*
+*.credentials
+.env
+.env.*
+client_secret_*
