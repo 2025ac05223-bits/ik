@@ -18,3 +18,4 @@ build/
 .env
 .env.*
 client_secret_*
+data/

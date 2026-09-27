@@ -141,7 +141,7 @@ def main():
     client = ModelClient("http://localhost:8000")
     
     # For EC2 testing (uncomment and replace with your EC2 IP)
-    # client = ModelClient("http://your-ec2-ip:8000")
+    # client = ModelClient("http://51.20.255.104:8000")
     
     print("\n1️⃣ Testing API Health...")
     health = client.ping()
